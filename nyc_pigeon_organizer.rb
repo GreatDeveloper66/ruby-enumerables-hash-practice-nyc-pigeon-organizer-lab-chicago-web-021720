@@ -4,7 +4,9 @@ def nyc_pigeon_organizer(data)
   colorhash = data[:color]
   gender = data[:gender]
   lives = data[:lives]
-  #colorhash.each do |key,value|
+  colorhash.each do |key,value|
+    puts key
+    puts value
     #value.each do |name|
       #if emptyhash[name]
         #emptyhash[name][:color].push(key.to_s)
@@ -12,6 +14,6 @@ def nyc_pigeon_organizer(data)
         #emptyhash[name][:color] = [key.to_s]
       #end
     #end
-  #end
+  end
   emptyhash
 end
