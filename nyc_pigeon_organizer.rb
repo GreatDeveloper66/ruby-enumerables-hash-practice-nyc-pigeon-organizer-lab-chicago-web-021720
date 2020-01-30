@@ -7,13 +7,13 @@ def nyc_pigeon_organizer(data)
   lives = data[:lives]
   colorhash.each do |key,value|
     binding.pry
-    #value.each do |name|
+    value.each do |name|
       #if emptyhash[name]
         #emptyhash[name][:color].push(key.to_s)
       #else
         #emptyhash[name][:color] = [key.to_s]
       #end
-    #end
+    end
   end
   emptyhash
 end
