@@ -6,8 +6,7 @@ def nyc_pigeon_organizer(data)
   gender = data[:gender]
   lives = data[:lives]
   colorhash.each do |key,value|
-    puts key
-    puts value
+    binding.pry
     #value.each do |name|
       #if emptyhash[name]
         #emptyhash[name][:color].push(key.to_s)
